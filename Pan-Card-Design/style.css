@@ -11,23 +11,24 @@ body {
 }
 
 .pan-card {
-  background-color: #509df4;
+  background-image: linear-gradient(to top right, rgb(240, 164, 240), #09458a);
   opacity: 0.9;
   display: grid;
   grid-template-columns: 2fr 1fr;
   height: 400px;
   width: 650px;
-  border-radius: 10px;
-}
-.pan-card h1 {
-  font-size: 18px;
+  border-radius: 30px;
 }
 .pan-card h2 {
   font-size: 17px;
 }
+.pan-card .pan-card__h2 {
+  color: rgb(19, 19, 95);
+}
 .pan-card h3 {
   font-size: 14px;
   margin: 1px;
+  color: rgb(19, 19, 95);
 }
 .pan-card h4 {
   font-size: 16px;
@@ -40,6 +41,10 @@ body {
   grid-template-columns: 2fr 1fr 2fr;
   text-align: center;
   padding-left: 15px;
+}
+.pan-card .pan-card__div1 h1 {
+  font-size: 18px;
+  text-shadow: 2px 2px 8px #9e0f5b;
 }
 .pan-card .pan-card__div1 img {
   width: 70px;
